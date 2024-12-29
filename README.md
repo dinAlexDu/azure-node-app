@@ -56,11 +56,14 @@ Hello, Azure App Services!
    ```
 4.  Deploy to Azure:
 
-- Follow the Azure App Service Documentation to set up your environment.
+- Follow the [Azure App Service Documentation](https://learn.microsoft.com/en-us/azure/app-service/) to set up your environment.
+
 
 ## Fixes Implemented
 
-Port Issue Fix: Adjusted the application to use the Azure-required environment variable PORT instead of a hardcoded port.
+- Port Issue Fix: Adjusted the application to use the Azure-required environment variable PORT instead of a hardcoded port.
+- Issue: Azure uses a dynamic port, and hardcoding the port caused deployment failures.
+- Solution: Updated the application to read the PORT variable from the environment.
 
 ## Technologies Used
 
@@ -71,6 +74,17 @@ Port Issue Fix: Adjusted the application to use the Azure-required environment v
 
 ## License
 This project is licensed under the MIT License.
+
+
+## Links
+Azure App Service Documentation:
+https://learn.microsoft.com/en-us/azure/app-service/
+
+Express.js Documentation:
+https://expressjs.com/
+
+Node.js Documentation:
+https://nodejs.org/en/
 
 
 
