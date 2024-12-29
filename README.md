@@ -61,14 +61,12 @@ Hello, Azure App Services!
 
 Port Issue Fix: Adjusted the application to use the Azure-required environment variable PORT instead of a hardcoded port.
 
-
 ## Technologies Used
 
-Node.js (v18)
-Express.js
-GitHub Actions for CI/CD
-Azure App Services
-
+- Node.js (v18)
+- Express.js
+- GitHub Actions for CI/CD
+- Azure App Services
 
 ## License
 This project is licensed under the MIT License.
