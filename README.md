@@ -55,7 +55,8 @@ Hello, Azure App Services!
     npm start
    ```
 4.  Deploy to Azure:
-   Follow the Azure App Service Documentation to set up your environment.
+
+- Follow the Azure App Service Documentation to set up your environment.
 
 ## Fixes Implemented
 
