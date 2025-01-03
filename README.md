@@ -18,6 +18,21 @@ This project demonstrates how to deploy a simple Node.js application to **Azure 
 8. [Contributions](#contributions)
 
 ---
+## Project Objectives
+
+- **Deploy a Node.js Application:**  
+  Host a simple Express.js application on Azure App Services.
+
+- **Automate CI/CD:**  
+  Use GitHub Actions to streamline deployment and testing workflows.
+
+- **Ensure Scalability and Availability:**  
+  Leverage Azure App Services to provide a reliable, scalable hosting environment for the Node.js application.
+
+- **Monitor Application Logs:**  
+  Utilize Azure App Services log streaming to monitor and troubleshoot the application in real time.
+
+---
 
 ## Steps Implemented
 
